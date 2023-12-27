@@ -1,4 +1,4 @@
-name: Laravel
+name: ${{ github.actor }} Laravel
 
 on:
   push:

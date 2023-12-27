@@ -1,0 +1,13 @@
+name: ${{ github.actor }} Laravel
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  laravel-tests:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - run: echo "Running"
