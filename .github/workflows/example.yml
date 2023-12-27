@@ -19,5 +19,7 @@ jobs:
       run: php -v
     - name: List All Files In Current Directory
       run: ls -al ..
-    - name: Find Artisan File
-      run: sudo find / -name artisan
+    - name: PWD
+      run: pwd
+    # - name: Find Artisan File
+    #   run: sudo find / -name artisan
