@@ -18,4 +18,4 @@ jobs:
     - name: Check PHP Version
       run: php -v
     - name: List All Files In Current Directory
-      run: ls -al
+      run: ls -al ..
