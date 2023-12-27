@@ -11,5 +11,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo "Running"
-    - run: php -v
+    - name: Testing OS
+      run: echo "Running"
+    - name: Check Composer Version
+      run: composer --version
+    - name: Check PHP Version
+      run: php -v
+    - name: List All Files In Current Directory
+      run: ls -al
